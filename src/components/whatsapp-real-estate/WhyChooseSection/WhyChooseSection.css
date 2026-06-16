@@ -1,0 +1,252 @@
+/* =========================================================
+   WHY CHOOSE SECTION — PAGE 16 STYLE
+========================================================= */
+
+.wre-why-section {
+  width: 100%;
+  background: #ffffff;
+  padding: 70px 20px 85px;
+  display: flex;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.wre-why-wrap {
+  width: 100%;
+  max-width: 1180px;
+  min-height: 430px;
+  position: relative;
+  background:
+    radial-gradient(circle at 18% 20%, rgba(124, 92, 255, 0.04), transparent 28%),
+    radial-gradient(circle at 86% 28%, rgba(124, 92, 255, 0.05), transparent 30%),
+    linear-gradient(180deg, #ffffff 0%, #fbfaff 100%);
+ padding: 34px 34px 48px;
+  overflow: hidden;
+}
+
+.wre-why-header {
+  text-align: center;
+  margin-bottom: 42px;
+  position: relative;
+  z-index: 2;
+}
+
+.wre-why-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 7px 16px;
+  border-radius: 7px;
+  border: 1px solid rgba(124, 92, 255, 0.45);
+  color: #5f35f5;
+  background: #ffffff;
+  font-size: 0.9rem;
+  line-height: 1;
+  font-weight: 900;
+  margin-bottom: 18px;
+  box-shadow: 0 8px 18px rgba(95, 53, 245, 0.05);
+}
+
+.wre-why-badge svg {
+  font-size: 0.78rem;
+}
+
+.wre-why-header h2 {
+  margin: 0;
+  font-size: 38px;
+  line-height: 1.2;
+  font-weight: 800;
+  letter-spacing: -0.35px;
+  color: #1d1d1b;
+}
+
+.wre-why-header h2 span {
+  color: #5f35f5;
+}
+
+.wre-why-header p {
+  margin: 12px 0 0;
+  color: #1d1d1b;
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 700;
+}
+
+/* CARDS */
+.wre-why-cards {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 18px;
+  max-width: 1080px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+.wre-why-card {
+  min-height: 245px;
+  background:
+    radial-gradient(circle at 80% 14%, rgba(124, 92, 255, 0.05), transparent 28%),
+    #ffffff;
+  border-radius: 4;
+padding: 24px 18px 24px;
+  box-shadow: 0 20px 40px rgba(35, 26, 82, 0.045);
+  border: 1px solid rgba(231, 226, 255, 0.7);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.wre-why-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.85rem;
+  margin-bottom: 20px;
+}
+
+.wre-why-icon.purple {
+  color: #6d35ff;
+  background: #f0eaff;
+}
+
+.wre-why-icon.green {
+  color: #16a34a;
+  background: #dcfce7;
+}
+
+.wre-why-icon.pink {
+  color: #ec4899;
+  background: #ffe4ef;
+}
+
+.wre-why-icon.blue {
+  color: #3267ff;
+  background: #e8efff;
+}
+
+.wre-why-icon.indigo {
+  color: #4f46e5;
+  background: #ececff;
+}
+
+.wre-why-card h3 {
+  margin: 0;
+  color: #1d1d1b;
+  font-size: 16px;
+  line-height: 1.25;
+  font-weight: 800;
+  min-height: 42px;
+}
+
+.wre-why-line {
+  width: 20px;
+  height: 3px;
+  border-radius: 999px;
+  margin: 14px 0 15px;
+}
+
+.wre-why-line.purple {
+  background: #6d35ff;
+}
+
+.wre-why-line.green {
+  background: #16a34a;
+}
+
+.wre-why-line.pink {
+  background: #ec4899;
+}
+
+.wre-why-line.blue {
+  background: #3267ff;
+}
+
+.wre-why-line.indigo {
+  background: #4f46e5;
+}
+
+.wre-why-card p {
+  margin: 0;
+  color: #1d1d1b;
+  font-size: 13px;
+  line-height: 1.55;
+  font-weight: 500;
+}
+
+/* RESPONSIVE */
+@media (max-width: 1100px) {
+  .wre-why-wrap {
+    max-width: 960px;
+  }
+
+  .wre-why-cards {
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 100%;
+  }
+
+  .wre-why-card {
+    min-height: 225px;
+  }
+}
+
+@media (max-width: 768px) {
+  .wre-why-section {
+    padding: 55px 14px 70px;
+  }
+
+  .wre-why-wrap {
+    padding: 24px 16px 32px;
+  }
+
+  .wre-why-header {
+    margin-bottom: 30px;
+  }
+
+  .wre-why-header h2 {
+    font-size: 30px;
+    line-height: 1.2;
+  }
+
+  .wre-why-header p {
+    font-size: 14.5px;
+    line-height: 1.6;
+  }
+
+  .wre-why-cards {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+  }
+
+  .wre-why-card {
+    min-height: 220px;
+  }
+}
+
+@media (max-width: 520px) {
+  .wre-why-header h2 {
+    font-size: 26px;
+  }
+
+  .wre-why-badge {
+    font-size: 11.5px;
+    line-height: 1.35;
+    text-align: left;
+  }
+
+  .wre-why-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .wre-why-card {
+    min-height: auto;
+    padding: 22px 18px;
+  }
+
+  .wre-why-card h3 {
+    min-height: auto;
+  }
+}

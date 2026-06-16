@@ -1,0 +1,700 @@
+/* =========================================================
+   FINAL CTA SECTION — PAGE 14 STYLE
+========================================================= */
+
+.wre-final-cta-section {
+  width: 100%;
+  padding: 70px 20px 85px;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.wre-final-cta-card {
+  position: relative;
+  width: 100%;
+  max-width: 1180px;
+  min-height: 560px;
+  border: 1px solid rgba(124, 92, 255, 0.2);
+  border-radius: 18px;
+  background:
+    radial-gradient(circle at 72% 22%, rgba(123, 92, 255, 0.09), transparent 28%),
+    radial-gradient(circle at 92% 50%, rgba(123, 92, 255, 0.08), transparent 28%),
+    linear-gradient(90deg, #ffffff 0%, #fbf9ff 100%);
+  box-shadow: 0 28px 70px rgba(83, 56, 158, 0.08);
+  overflow: hidden;
+  padding: 48px 54px;
+display: grid;
+grid-template-columns: 1fr 500px;
+gap: 26px;
+}
+
+.wre-final-cta-card::before,
+.wre-final-cta-card::after {
+  content: "";
+  position: absolute;
+  width: 115px;
+  height: 115px;
+  background-image: radial-gradient(rgba(124, 92, 255, 0.22) 1.2px, transparent 1.2px);
+  background-size: 12px 12px;
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.wre-final-cta-card::before {
+  right: 42%;
+  top: 70px;
+}
+
+.wre-final-cta-card::after {
+  right: 45px;
+  bottom: 48px;
+}
+
+.wre-final-left {
+  position: relative;
+  z-index: 2;
+  padding-top: 4px;
+}
+
+.wre-final-badge {
+  width: fit-content;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: #f4efff;
+  color: #6437f5;
+  font-size: 0.6rem;
+  font-weight: 900;
+  margin-bottom: 18px;
+  border: 1px solid rgba(99, 55, 245, 0.18);
+}
+
+.wre-final-badge svg {
+  font-size: 0.8rem;
+}
+
+.wre-final-left h2 {
+  margin: 0;
+  color: #1d1d1b;
+  font-size: 40px;
+  line-height: 1.18;
+  font-weight: 800;
+  letter-spacing: -0.4px;
+}
+
+.wre-final-left h2 span {
+  color: #6437f5;
+}
+
+.wre-final-desc {
+  margin: 18px 0 26px;
+  max-width: 560px;
+  color: #1d1d1b;
+  font-size: 16px;
+  line-height: 1.65;
+  font-weight: 500;
+}
+
+.wre-final-features {
+  display: grid;
+  grid-template-columns: repeat(4, max-content);
+  gap: 22px;
+  margin-bottom: 28px;
+}
+
+.wre-final-features div {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.wre-final-features span {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: #f0eaff;
+  color: #6437f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.wre-final-features p {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.wre-final-features strong {
+  color: #1d1d1b;
+  font-size: 10px;
+  line-height: 1.1;
+  font-weight: 900;
+}
+
+.wre-final-features small {
+  color: #2e2e3c;
+  font-size: 10px;
+  line-height: 1.1;
+  font-weight: 600;
+}
+
+.wre-final-actions {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 24px;
+}
+
+.wre-final-actions button {
+  height: 52px;
+  border-radius: 10px;
+  font-weight: 900;
+  font-size: 0.95rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.wre-final-primary-btn {
+  min-width: 290px;
+  background: linear-gradient(135deg, #6437f5, #4f2ee8);
+  color: #ffffff;
+  border: 0;
+  box-shadow: 0 16px 28px rgba(99, 55, 245, 0.28);
+}
+
+.wre-final-primary-btn svg {
+  font-size: 1.15rem;
+}
+
+.wre-final-primary-btn span {
+  font-size: 1.2rem;
+}
+
+.wre-final-secondary-btn {
+  min-width: 160px;
+  background: #ffffff;
+  color: #07142f;
+  border: 1px solid rgba(99, 55, 245, 0.28);
+  box-shadow: 0 12px 26px rgba(83, 56, 158, 0.08);
+}
+
+.wre-final-trust-row {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  color: #42516d;
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+.wre-final-trust-row span {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.wre-final-trust-row svg {
+  color: #7c5cff;
+}
+
+/* RIGHT VISUAL */
+.wre-final-right {
+  position: relative;
+  min-height: 470px;
+  z-index: 2;
+}
+
+.wre-final-dashboard {
+  position: absolute;
+  right: 0;
+  top: 18px;
+  width: 390px;
+  height: 330px;
+  background: #ffffff;
+  border: 1px solid rgba(124, 92, 255, 0.12);
+  border-radius: 14px;
+  padding: 16px;
+  box-shadow: 0 24px 55px rgba(42, 31, 94, 0.12);
+  overflow: hidden;
+box-sizing: border-box;
+}
+
+.wre-final-dashboard-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.wre-final-dashboard-head strong {
+  font-size: 1rem;
+  color: #07142f;
+  font-weight: 900;
+}
+
+.wre-final-dashboard-head span {
+  color: #5f6b82;
+  font-size: 0.64rem;
+  border: 1px solid #e5e8f1;
+  border-radius: 7px;
+  padding: 5px 8px;
+}
+
+.wre-final-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.wre-final-stats-grid div {
+  background: #fafbff;
+  border: 1px solid #edf0f6;
+  border-radius: 9px;
+  min-height: 62px;
+  padding: 8px 7px;
+}
+
+.wre-final-stats-grid small {
+  display: block;
+  color: #657189;
+  font-size: 0.55rem;
+  line-height: 1.15;
+  margin-bottom: 6px;
+}
+
+.wre-final-stats-grid strong {
+  display: block;
+  color: #1d1d1b;
+  font-size: 14px;
+  font-weight: 950;
+  margin-bottom: 4px;
+}
+
+.wre-final-stats-grid em {
+  color: #16a34a;
+  font-size: 0.52rem;
+  font-style: normal;
+  font-weight: 800;
+}
+
+.wre-final-dashboard-bottom {
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(0, 0.95fr);
+  gap: 10px;
+  width: 100%;
+  min-width: 0;
+}
+
+.wre-final-chart-card,
+.wre-final-campaign-card {
+  border: 1px solid #edf0f6;
+  border-radius: 10px;
+  background: #ffffff;
+  padding: 11px;
+  min-height: 150px;
+  width: 100%;
+min-width: 0;
+box-sizing: border-box;
+overflow: hidden;
+}
+
+.wre-final-chart-card strong,
+.wre-final-campaign-card strong {
+  font-size: 0.7rem;
+  font-weight: 900;
+  color: #07142f;
+  display: block;
+white-space: normal;
+line-height: 1.25;
+}
+
+.wre-final-chart-card svg {
+  width: 100%;
+  height: 88px;
+  margin-top: 8px;
+}
+
+.wre-final-chart-dates {
+  display: flex;
+  justify-content: space-between;
+  color: #818da4;
+  font-size: 0.5rem;
+  font-weight: 600;
+}
+
+.wre-final-campaign-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 12px 0 8px;
+  display: grid;
+  gap: 5px;
+}
+
+.wre-final-campaign-card li {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  column-gap: 8px;
+  row-gap: 2px;
+  align-items: center;
+  min-width: 0;
+}
+
+.wre-final-campaign-card li span {
+  color: #07142f;
+  font-size: 0.52rem;
+  font-weight: 700;
+}
+
+.wre-final-campaign-card li b {
+  color: #07142f;
+  font-size: 0.58rem;
+}
+
+.wre-final-campaign-card li em {
+  grid-column: 2;
+  color: #16a34a;
+  font-size: 0.48rem;
+  font-style: normal;
+  font-weight: 800;
+}
+
+.wre-final-campaign-card button {
+  border: 0;
+  background: transparent;
+  color: #6437f5;
+  font-size: 0.55rem;
+  font-weight: 900;
+  padding: 0;
+}
+
+/* PHONE */
+.wre-final-phone {
+  position: absolute;
+  left: -35px;
+  top: 170px;
+  width: 168px;
+  height: 350px;
+  background: #ffffff;
+  border: 4px solid #121a2b;
+  border-radius: 26px;
+  overflow: hidden;
+  box-shadow: 0 24px 46px rgba(20, 28, 45, 0.25);
+  z-index: 4;
+}
+
+.wre-final-phone-top {
+  height: 16px;
+  background: #f6f7fb;
+  display: flex;
+  align-items: center;
+  padding-left: 12px;
+  font-size: 0.45rem;
+  color: #07142f;
+  font-weight: 800;
+}
+
+.wre-final-phone-head {
+  height: 40px;
+  background: #ffffff;
+  border-bottom: 1px solid #edf0f6;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 7px;
+}
+
+.avatar-dot {
+  width: 18px;
+  height: 18px;
+  background: #0b8457;
+  border-radius: 50%;
+}
+
+.wre-final-phone-head strong {
+  display: block;
+  font-size: 0.48rem;
+  color: #07142f;
+  line-height: 1;
+  font-weight: 900;
+}
+
+.wre-final-phone-head small {
+  display: block;
+  font-size: 0.36rem;
+  color: #657189;
+  margin-top: 2px;
+}
+
+.wre-final-phone-body {
+  padding: 8px;
+  background: #f7f8fb;
+  height: 252px;
+}
+
+.wre-final-phone-img {
+  width: 100%;
+  height: 84px;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-bottom: 7px;
+}
+
+.wre-final-chat-card {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 8px;
+  margin-bottom: 8px;
+  box-shadow: 0 4px 10px rgba(20, 28, 45, 0.06);
+}
+
+.wre-final-chat-card p {
+  margin: 0 0 4px;
+  font-size: 0.45rem;
+  line-height: 1.2;
+  color: #07142f;
+  font-weight: 700;
+}
+
+.wre-final-chat-card small {
+  color: #07142f;
+  font-size: 0.42rem;
+  line-height: 1.18;
+}
+
+.wre-final-phone-body button {
+  width: 100%;
+  height: 24px;
+  border-radius: 7px;
+  border: 1px solid rgba(99, 55, 245, 0.18);
+  background: #ffffff;
+  color: #6437f5;
+  font-size: 0.42rem;
+  font-weight: 900;
+  margin-bottom: 5px;
+}
+
+.wre-final-phone-footer {
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 9px;
+  background: #ffffff;
+  border-top: 1px solid #edf0f6;
+}
+
+.wre-final-phone-footer span {
+  font-size: 0.42rem;
+  color: #8a94a8;
+}
+
+.wre-final-phone-footer svg {
+  width: 20px;
+  height: 20px;
+  color: #14a85c;
+}
+
+.wre-final-trusted-card {
+  position: absolute;
+  left: 190px;
+  bottom: 24px;
+  width: 255px;
+  min-height: 48px;
+  background: #ffffff;
+  border: 1px solid rgba(124, 92, 255, 0.16);
+  border-radius: 10px;
+  box-shadow: 0 16px 30px rgba(83, 56, 158, 0.1);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 14px;
+  z-index: 5;
+}
+
+.wre-final-trusted-card svg {
+  color: #6437f5;
+  font-size: 1.2rem;
+}
+
+.wre-final-trusted-card span {
+  color: #07142f;
+  font-size: 0.78rem;
+  line-height: 1.25;
+  font-weight: 900;
+}
+
+/* RESPONSIVE */
+@media (max-width: 1100px) {
+  .wre-final-cta-card {
+    grid-template-columns: 1fr;
+    padding: 42px 30px;
+    max-width: 960px;
+  }
+
+  .wre-final-left {
+    max-width: 760px;
+  }
+
+  .wre-final-right {
+    min-height: 455px;
+  }
+
+  .wre-final-dashboard {
+    right: 0;
+    width: 74%;
+  }
+
+  .wre-final-phone {
+    left: 0;
+    top: 120px;
+  }
+
+  .wre-final-trusted-card {
+    left: 210px;
+    bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .wre-final-cta-section {
+    padding: 60px 14px;
+  }
+
+  .wre-final-cta-card {
+    padding: 30px 18px;
+    min-height: auto;
+  }
+
+  .wre-final-left h2 {
+  font-size: 30px;
+  line-height: 1.2;
+  letter-spacing: -0.3px;
+}
+
+  .wre-final-features {
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+
+  .wre-final-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .wre-final-actions button {
+    width: 100%;
+  }
+
+  .wre-final-trust-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .wre-final-right {
+    min-height: auto;
+    display: grid;
+    gap: 18px;
+  }
+
+  .wre-final-dashboard,
+  .wre-final-phone,
+  .wre-final-trusted-card {
+    position: relative;
+    left: auto;
+    right: auto;
+    top: auto;
+    bottom: auto;
+    width: 100%;
+  }
+
+  .wre-final-phone {
+    max-width: 230px;
+    margin: 0 auto;
+    height: 420px;
+  }
+
+  .wre-final-phone-body {
+    height: 330px;
+  }
+
+  .wre-final-dashboard {
+    height: auto;
+  }
+
+  .wre-final-stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .wre-final-dashboard-bottom {
+    grid-template-columns: 1fr;
+  }
+
+  .wre-final-trusted-card {
+    width: 100%;
+  }
+  .wre-final-desc {
+  font-size: 14.5px;
+  line-height: 1.6;
+}
+
+.wre-final-dashboard {
+  width: 100%;
+  max-width: 100%;
+}
+
+.wre-final-phone {
+  max-width: 240px;
+  width: 240px;
+}
+
+.wre-final-trusted-card {
+  max-width: 100%;
+}
+}
+
+@media (max-width: 480px) {
+  .wre-final-left h2 {
+    font-size: 26px;
+    line-height: 1.22;
+  }
+
+  .wre-final-features {
+    grid-template-columns: 1fr;
+  }
+
+  .wre-final-primary-btn {
+    min-width: auto;
+  }
+}
+/* FINAL CTA — small desktop alignment polish */
+
+@media (min-width: 1101px) {
+  .wre-final-dashboard {
+    right: 0;
+    top: 18px;
+    width: 390px;
+    height: 330px;
+  }
+
+  .wre-final-phone {
+    left: -10px;
+    top: 170px;
+  }
+
+  .wre-final-trusted-card {
+    left: 190px;
+    bottom: 24px;
+  }
+}
