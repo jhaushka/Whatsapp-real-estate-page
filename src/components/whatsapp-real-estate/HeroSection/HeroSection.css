@@ -5,6 +5,7 @@
   background: linear-gradient(150deg, #f0fdf4 0%, #ffffff 55%, #f0fdf4 100%);
   overflow: hidden;
   position: relative;
+  font-family: "Montserrat", sans-serif;
 }
 .wre-hero-section::before {
   content: "";
